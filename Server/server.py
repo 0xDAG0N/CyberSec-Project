@@ -5,7 +5,7 @@ import hashlib
 
 # Constants
 HOST = "localhost"
-SECURE_PORT = 443
+SECURE_PORT = 50000
 PORT = 1234
 FILES_LIST = ["f1.txt", "f2.txt", "f3.txt"]
 

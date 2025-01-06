@@ -5,7 +5,7 @@ from util import *
 # Constants
 HOST = "localhost"
 PORT = 1234
-SECURE_PORT = 443
+SECURE_PORT = 50000
 
 
 # Function to connect to the server
