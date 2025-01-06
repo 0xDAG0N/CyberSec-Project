@@ -44,9 +44,3 @@ The client will prompt you to choose the type of connection (secured or not secu
 
 File Download and Verification
 The client will download the selected file and save it with a new_ prefix. It will also verify the checksum of the downloaded file to ensure its integrity.
-
-Functions
-Server Functions
-initialize_server(): Initializes the server socket for non-secure connections.
-initialize_secure_server(): Initializes the server socket for secure connections.
-send_file(session, file_name, secure): Sends the requested file to the client, optionally encrypting
