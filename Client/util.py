@@ -1,6 +1,7 @@
 from hashlib import sha256
 from Crypto.Cipher import ChaCha20
 from Crypto.Random import get_random_bytes
+import os
 
 
 # Function to receive data from the socket
@@ -18,14 +19,15 @@ def send(soc, data):
 
 # Function to read the content of a file
 def read_file(name):
-    with open(name, "r") as file:
+    file_path = os.path.join(os.path.dirname(__file__), name)
+    with open(file_path, "r") as file:
         data = file.read()
     return data
 
-
 # Function to write data to a file
 def write_file(name, data):
-    with open(name, "w") as file:
+    file_path = os.path.join(os.path.dirname(__file__), name)
+    with open(file_path, "w") as file:
         file.write(data)
 
 
