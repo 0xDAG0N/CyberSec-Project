@@ -22,11 +22,6 @@ Install the required library using pip:
 pip install pycryptodome
 ```
 
-Workspace
-Collecting workspace information
-
-Sure, here is a README.md file for your project:
-
 pycache/ client.py f1.txt f2.txt f3.txt server.py util.py
 
 Usage
@@ -36,7 +31,14 @@ Run the server script to start the server:
 The server will start and listen for incoming connections on port 1234 for non-secure connections and port 443 for secure connections.
 
 Running the Client
+```sh
+python server.py
+```
+
 Run the client script to connect to the server:
+```sh
+python client.py
+```
 
 The client will prompt you to choose the type of connection (secured or not secured) and then display the list of available files. Enter the name of the file you want to download.
 
