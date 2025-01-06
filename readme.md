@@ -20,6 +20,7 @@ Install the required library using pip:
 
 ```sh
 pip install pycryptodome
+```
 
 Workspace
 Collecting workspace information
